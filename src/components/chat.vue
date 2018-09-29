@@ -5,7 +5,6 @@
 		</div>
 		<div>
 			<div class="aui-flex-list">
-				
 				<a href="javascript:;" class="aui-flex-list-item" v-for="item in chatData">
 		            <div class="aui-flex-list-image">
 		                <img style="height: 45px;width: 45px;" :src="'data:image/jpeg;base64,'+item.img" alt="">
@@ -18,10 +17,7 @@
 		            <span class="aui-flex-list-right">{{item.time}}</span>
 		        </a>
 			</div>
-			
 		</div>
-    	
-    	
 	</div>
 </template>
 
